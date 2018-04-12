@@ -96,7 +96,7 @@ void loop() {
     }  
   }
 
-  //Se a variavel contaclique chegar a 3,(no intervalo inferior a 1 segundo), apaga os leds do drone.
+  //Se a variavel contaclique chegar a 3, (no intervalo inferior a 1 segundo), apaga os leds do drone.
   if(contaclique == 3){
     digitalWrite(leds, LOW);
     //estado_atual = "Leds apagados";  
